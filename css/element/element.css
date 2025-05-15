@@ -1,0 +1,67 @@
+// CSS
+// Ejemplos
+
+    // BLOQUE
+    .block {
+        /* ... */
+    }
+    // ELEMENTO
+    .block__element {
+        /* ... */
+    }
+
+    // BLOQUE
+    .form {
+        /* ... */
+    }
+    // ELEMENTO
+    .form__input {
+        /* ... */
+    }
+    // ELEMENTO
+    .form__textarea {
+        /* ... */
+    }
+
+    // BLOQUE
+    .tabs {
+        /* ... */
+    }
+    
+    // ELEMENTO
+    .tabs__title {
+        /* ... */
+    }
+
+    // ELEMENTO
+    .tabs__content {
+        /* ... */
+    }
+
+    .search-block {
+        /* ... */
+    }
+
+    .search-block__search-button {
+        /* ... */
+    }
+
+    .custom-form{
+        /* ... */
+    }
+
+    .custom-form__my-submit {
+        /* ... */
+    }
+
+    .another-block-custom{
+        /* ... */
+    }
+
+    .another-block-custom__another-element-name {
+        /* ... */
+    }
+
+    .another-block-custom__the-last-element{
+        /* ... */
+    }
