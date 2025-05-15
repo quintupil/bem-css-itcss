@@ -5,6 +5,7 @@
 URL: https://itauchile.udemy.com/course/bem-css-itcss-metodologia-bemit-diseno-web-avanzado/learn/lecture/12964598#overview
 
 ## BEM
+# 2. ¿Qué es BEM?
 - Es una metodología de nomenclatura para definir las clases del HTML. 
 - El objetivo de BEM es dar transparencia y claridad a nuestro HTML y CSS.
 - BEM te dice como se relacionan las clases entre ellas.
@@ -22,5 +23,21 @@ URL: https://itauchile.udemy.com/course/bem-css-itcss-metodologia-bemit-diseno-w
 - Se puede dar el caso que existan algunas clases independientes a nuestro sistema BEM en el proyecto, pero no es lo más recomendable.
 
 - Esas clases independientes normalmente serán generadas por plugins de tercero.
+
+# 3. BEM - B de bloque
+
+### B DE BLOQUE
+
+- Entidad independiente con significado propio
+- Existen bloques simples y compuestos (bloques dentro de bloques)
+- Para nombrar un bloque puedes usar letras, digitos y guiones.
+- No puedes usar mayúsculas
+- No puedes usar dos guiones bajos seguidos, está reservado para los elementos __ (block__element)
+- No puedes usar dos guiones seguidos, está reservado para los modificadores -- (block--modifier)
+
+Ejemplo: bloque.html y bloque.css
+
+Notes:
+    - Usar la clase del bloque como selector.
 
 

@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    display: flex;
+    background-color: lightblue;
+    padding: 20px;
+    outline: 1px solid darkblue;
+}
+
+.col {
+    width: 50%;
+    display: block;
+    background-color: lightgreen;
+    padding: 20px;
+    outline: 1px solid darkgreen;
+}
+
+.menu {
+    width: 100%;
+    display: block;
+    background-color: lightcoral;
+    color: black;
+    padding: 20px;
+    outline: 1px solid darkred;
+}
