@@ -1,0 +1,77 @@
+// VERSION CSS
+
+// EJEMPLOS
+
+    // BLOQUE
+    .block {
+        /* ... */
+    }
+    
+    // MODIFICADOR DEL BLOQUE block
+    .block--mod {
+        /* ... */
+    }
+    
+    // ELEMENTO DEL BLOQUE block
+    .block__element {
+        /* ... */
+    }
+
+    // MODIFICADOR DEL elemento block__element
+    .block__element--mod {
+        /* ... */
+    }
+
+    // BLOQUE
+    .form {
+        /* ... */
+    }
+
+    // ELEMENTO
+    .form__input {
+        /* ... */
+    }
+
+    // MODIFICADOR DEL elemento form__input--border
+    .form__input--border {
+        /* ... */
+    }
+
+    // ELEMENTO
+    .form__textarea {
+        /* ... */
+    }
+
+    //ELEMENTO
+    .form__submit {
+        /* ... */
+    }
+    
+    // UN MODIFICADOR DEL ELEMENTO form__submit
+    .form__submit--big {
+        /* ... */
+    }
+
+    // OTRO MODIFICADOR DEL ELEMENTO form__submit
+    .form__submit--black {
+        /* ... */
+    }
+
+    // ALGUNOS EJEMPLOS MÁS
+    // BLOQUE
+    .custom-form {
+        /* ... */
+    }
+    // MODIFICADOR DEL BLOQUE custom-form
+    .custom-form--color-red {
+        /* ... */
+    }
+
+    // ELEMENTO
+    .custom-form__my-submit {
+        /* ... */
+    }
+    // MODIFICADOR DEL ELEMENTO custom-form__my-submit
+    .custom-form__my-submit--border-bottom {
+        /* ... */
+    }

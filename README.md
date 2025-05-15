@@ -6,9 +6,13 @@ URL: https://itauchile.udemy.com/course/bem-css-itcss-metodologia-bemit-diseno-w
 
 # BEM
 ## 2. ¿Qué es BEM?
+
 - Es una metodología de nomenclatura para definir las clases del HTML. 
+
 - El objetivo de BEM es dar transparencia y claridad a nuestro HTML y CSS.
+
 - BEM te dice como se relacionan las clases entre ellas.
+
 - Todas las clases del proyecto pueden encajar con esta filosofía.
 
 - BEM son tres siglas 
@@ -17,7 +21,9 @@ URL: https://itauchile.udemy.com/course/bem-css-itcss-metodologia-bemit-diseno-w
     * M de Modificador
 
 - Un bloque es una entidad independiente con significado propio. 
+
 - Un elemento es una porción más pequeña de un bloque.
+
 - Un modificador es una clase que sirve para modificar propiedades de un bloque. 
 
 - Se puede dar el caso que existan algunas clases independientes a nuestro sistema BEM en el proyecto, pero no es lo más recomendable.
@@ -29,10 +35,15 @@ URL: https://itauchile.udemy.com/course/bem-css-itcss-metodologia-bemit-diseno-w
 ### B DE BLOQUE
 
 - Entidad independiente con significado propio
+
 - Existen bloques simples y compuestos (bloques dentro de bloques)
+
 - Para nombrar un bloque puedes usar letras, digitos y guiones.
+
 - No puedes usar mayúsculas
+
 - No puedes usar dos guiones bajos seguidos, está reservado para los elementos __ (block__element)
+
 - No puedes usar dos guiones seguidos, está reservado para los modificadores -- (block--modifier)
 
 Ejemplo: bloque.html y bloque.css
@@ -44,11 +55,17 @@ Notes:
 ### E DE ELEMENTO
 
 - Segmento de un bloque, no tiene significado independiente por si solo.
+
 - Está ligado a su bloque, tiene que vivir dentro de el.
+
 - Cualquier TAG HTML dentro de un bloque puede ser un elemento.
+
 - Dentro de un bloque, todos sus elementos son iguales semanticamente.
+
 - Para nombrar un elemento puedes usar letras, digitos y guiones.
+
 - No puedes usar mayúsculas
+
 - No puedes usar dos guiones seguidos, está reservado para los modificadores -- (block--modifier)
 
 - La formula para crear nombres de elementos es:
@@ -60,3 +77,39 @@ Notes:
 
     Es decir:
     block__element => Así es un nombre de elemento
+
+## 4. BEM - M de modificador
+### M DE MODIFICADOR
+
+- Clase adicional a un bloque o elemento que modifica sus estilos definidos.
+
+- No tiene significado independiente por si solo.
+
+- Está ligado a su bloque o elemento, tiene que vivir con el.
+
+- A cualquier TAG HTML que sea un bloque o elemento se le puede añadir un modificador.
+
+- Puedes usar más de un modificador a la vez para el mismo bloque o elemento
+
+- Para nombrar un elemento puedes usar letras, digitos y guiones
+
+- No puedes usar mayúsculas
+
+- La formula para crear nombres de modificadores es: 
+
+    nombre-de-bloque + dos guiones (--) + nombre-de-modificador
+
+    Es decir:
+
+    block + -- + mod
+
+    Es decir:
+
+    block--mod => Así es un nombre de modificador
+
+### Compilar SCSS
+npm install -g sass
+sass css/modificador/menu.scss css/modificador/menu.css
+
+
+

@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  display: flex;
+  background-color: lightblue;
+  padding: 20px;
+  outline: 1px solid darkblue;
+  margin-bottom: 40px;
+}
+.header__col {
+  width: 50%;
+  display: block;
+  background-color: lightgreen;
+  padding: 20px;
+  outline: 1px solid darkgreen;
+}
+.header__col--grey {
+  background-color: lightgrey;
+}
+.header__logo {
+  width: 10%;
+  display: block;
+  max-width: 100%;
+  margin: 0px;
+}
+.header__menu {
+  display: block;
+  background-color: lightcoral;
+  padding: 20px;
+  outline: 1px solid darkred;
+}
+.header__menu-link {
+  color: black;
+  display: inline-block;
+  padding-right: 10px;
+  text-decoration: none;
+  /*&--withe {
+      color: white;
+  }*/
+}
+.header--light .header__menu-link {
+  color: white;
+}
+
+/*# sourceMappingURL=menu.css.map */

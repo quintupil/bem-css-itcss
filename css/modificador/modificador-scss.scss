@@ -1,0 +1,93 @@
+// VERSION SCSS - PREPROCESADOR
+// EJEMPLOS:
+
+    // BLOQUE
+    .block {
+        /* ... */
+        // MODIFICADOR DEL BLOQUE block
+        &--mod {
+            /* ... */
+        }
+        // ELEMENTO DEL BLOQUE block
+        &__element {
+            /* ... */
+            // MODIFICADOR DEL elemento block__element
+            &--mod {
+                /* ... */
+            }
+        }
+    }
+    
+    // CSS
+    .block{}
+    .block--mod{}
+    .block__element{}
+    .block__element--mod{}
+
+
+    // BLOQUE
+    .form {
+        /* ... */
+        
+        // ELEMENTO
+        &__input{
+            /* ... */
+            // MODIFICADOR DEL elemento form__input--border
+            &--border{
+                /* ... */
+            }
+        }
+        
+        // ELEMENTO
+        &__textarea{
+            /* ... */
+        }
+
+        // ELEMENTO
+        &__submit{
+            /* ... */
+            // UN MODIFICADOR DEL ELEMENTO form__submit
+            &--big{
+                /* ... */
+            }
+            // OTRO MODIFICADOR DEL ELEMENTO form__submit
+            &--black{
+                /* ... */
+            }
+        }
+    }
+
+    // CSS
+    .form{}
+    .form__input{}
+    .form__input--border{}
+    .form__textarea{}
+    .form__submit{}
+    .form__submit--big{}    
+    .form__submit--black{}
+
+
+    // ALGUNOS EJEMPLOS MÁS
+
+    // BLOQUE
+    .custom-form {  
+        /* ... */
+        // MODIFICADOR DEL BLOQUE custom-form
+        &--color-red {
+            /* ... */
+        }
+
+        // ELEMENTO
+        &__my-submit {
+            /* ... */
+            // MODIFICADOR DEL ELEMENTO custom-form__my-submit
+            &--border-bottom {
+                /* ... */
+            }
+        }
+    }    
+    // CSS
+    .custom-form {}
+    .custom-form--color-red {}
+    .custom-form__my-submit {}
+    .custom-form__my-submit--border-bottom {}
